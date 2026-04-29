@@ -3,5 +3,12 @@
   <body>
     <button id="continue-btn">Continue</button>
     <a href="#">Skip</a>
+    <script>
+      document.getElementById("continue-btn").addEventListener("click", function () {
+        if (typeof pendo !== "undefined") {
+          pendo.track("Continue Clicked Proof 20260429");
+        }
+      });
+    </script>
   </body>
 </html>
