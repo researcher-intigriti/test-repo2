@@ -1,1 +1,12 @@
-{"scripts":{"postinstall":"printf BB_NOVUS_NPM_POSTINSTALL_20260517 > BB_NOVUS_NPM_POSTINSTALL.txt","build":"printf BB_NOVUS_NPM_BUILD_20260517 > BB_NOVUS_NPM_BUILD.txt","test":"printf BB_NOVUS_NPM_TEST_20260517 > BB_NOVUS_NPM_TEST.txt"},"dependencies":{},"devDependencies":{}}
+{
+  "name": "test-repo2",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "prepare-build": "node scripts/prepare-build.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/check-content.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
