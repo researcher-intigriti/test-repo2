@@ -1,8 +1,8 @@
 install:
-	printf BB_NOVUS_MAKE_INSTALL_20260517 > BB_NOVUS_MAKE_INSTALL.txt
+	npm install
 
 build:
-	printf BB_NOVUS_MAKE_BUILD_20260517 > BB_NOVUS_MAKE_BUILD.txt
+	npm run build
 
 test:
-	printf BB_NOVUS_MAKE_TEST_20260517 > BB_NOVUS_MAKE_TEST.txt
+	npm test
