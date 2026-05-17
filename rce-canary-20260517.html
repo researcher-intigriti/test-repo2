@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <body>
+    <button id="continue-btn">Continue</button>
+    <script>
+      document.getElementById('continue-btn').addEventListener('click', function () {
+        if (window.pendo) pendo.track('BB_RCE_CANARY_20260517100108 click');
+      });
+    </script>
+  </body>
+</html>
+
