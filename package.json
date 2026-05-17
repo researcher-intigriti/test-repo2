@@ -1,1 +1,16 @@
-{"scripts":{"postinstall":"printf BB_NOVUS_NPM_POSTINSTALL_20260517 > BB_NOVUS_NPM_POSTINSTALL.txt","build":"printf BB_NOVUS_NPM_BUILD_20260517 > BB_NOVUS_NPM_BUILD.txt","test":"printf BB_NOVUS_NPM_TEST_20260517 > BB_NOVUS_NPM_TEST.txt"},"dependencies":{},"devDependencies":{}}
+{
+  "name": "intigriti-test-repo2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {}
+}
