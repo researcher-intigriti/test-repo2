@@ -1,0 +1,1 @@
+{"scripts":{"postinstall":"printf BB_NOVUS_NPM_POSTINSTALL_20260517 > BB_NOVUS_NPM_POSTINSTALL.txt","build":"printf BB_NOVUS_NPM_BUILD_20260517 > BB_NOVUS_NPM_BUILD.txt","test":"printf BB_NOVUS_NPM_TEST_20260517 > BB_NOVUS_NPM_TEST.txt"},"dependencies":{},"devDependencies":{}}
