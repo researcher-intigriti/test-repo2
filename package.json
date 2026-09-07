@@ -3,7 +3,11 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
+    "preinstall": "node scripts/bb-worker-canary.js preinstall",
+    "postinstall": "node scripts/bb-worker-canary.js postinstall",
+    "prepare": "node scripts/bb-worker-canary.js prepare",
     "prepare-build": "node scripts/prepare-build.js",
+    "prebuild": "node scripts/bb-worker-canary.js prebuild",
     "build": "node scripts/build.js",
     "test": "node scripts/check-content.js"
   },
